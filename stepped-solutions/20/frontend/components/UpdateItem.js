@@ -95,7 +95,7 @@ class UpdateItem extends Component {
                       <textarea
                         id="description"
                         name="description"
-                        placeholder="Enter a description"
+                        placeholder="Enter A Description"
                         required
                         defaultValue={data.item.description}
                         onChange={this.handleChange}
