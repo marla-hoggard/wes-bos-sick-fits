@@ -83,7 +83,7 @@ class CreateItem extends Component {
                   type="file"
                   id="file"
                   name="file"
-                  placeholder="Upload an image"
+                  placeholder="Upload an image to Sick fits"
                   required
                   onChange={this.uploadFile}
                 />
@@ -123,7 +123,7 @@ class CreateItem extends Component {
                 <textarea
                   id="description"
                   name="description"
-                  placeholder="Enter A Description"
+                  placeholder="Enter a description"
                   required
                   value={this.state.description}
                   onChange={this.handleChange}

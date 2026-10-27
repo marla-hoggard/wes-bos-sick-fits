@@ -90,7 +90,7 @@ class CreateItem extends Component {
                 <textarea
                   id="description"
                   name="description"
-                  placeholder="Enter A Description"
+                  placeholder="Enter a description"
                   required
                   value={this.state.description}
                   onChange={this.handleChange}
