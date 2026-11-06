@@ -134,7 +134,7 @@ class UpdateItem extends Component {
                         type="number"
                         id="price"
                         name="price"
-                        placeholder="Price (in lira)"
+                        placeholder="Price (in dollars)"
                         onChange={this.handleChange}
                         defaultValue={data.item.price}
                         required

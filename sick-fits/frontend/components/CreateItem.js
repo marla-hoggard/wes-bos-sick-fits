@@ -139,7 +139,7 @@ class CreateItem extends Component {
                   type="number"
                   id="price"
                   name="price"
-                  placeholder="Price (in lira)"
+                  placeholder="Price (in dollars)"
                   onChange={this.handleChange}
                   value={this.state.price}
                   required
